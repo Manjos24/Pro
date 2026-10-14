@@ -4,9 +4,6 @@ function Contact() {
       <div className="section-heading">
         <p className="eyebrow">Let&apos;s connect</p>
         <h2>Contact me</h2>
-        <p>
-          Email me at <a href="mailto:muhammadmuhammadauwal380@gmail.com">muhammadmuhammadauwal380@gmail.com</a>
-        </p>
       </div>
 
       <form
