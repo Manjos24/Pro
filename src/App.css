@@ -274,7 +274,11 @@
 }
 
 .project-image {
-  height: 190px;
+  display: block;
+  width: 110%;
+  height: 170px;
+  object-fit: cover;
+  object-position: center;
   background: linear-gradient(135deg, rgba(56, 189, 248, 0.4), rgba(139, 92, 246, 0.55));
 }
 
