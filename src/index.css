@@ -3,23 +3,21 @@
   line-height: 1.5;
   font-weight: 400;
   color: #e2e8f0;
-  background: #020817;
+  background: #0b1220;
   color-scheme: dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --page-background:
-    radial-gradient(circle at top, rgba(56, 189, 248, 0.18), transparent 35%),
-    linear-gradient(180deg, #020817 0%, #0f172a 100%);
+  --page-background: #0b1220;
   --text: #e2e8f0;
   --text-strong: #f8fafc;
   --text-muted: #cbd5e1;
   --text-subtle: #94a3b8;
-  --surface: rgba(15, 23, 42, 0.7);
-  --surface-raised: rgba(15, 23, 42, 0.6);
-  --surface-input: rgba(15, 23, 42, 0.5);
-  --surface-hero: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.92));
+  --surface: #131e30;
+  --surface-raised: #19263a;
+  --surface-input: #0f1a2b;
+  --surface-hero: #111c2e;
   --border: rgba(148, 163, 184, 0.18);
   --border-strong: rgba(148, 163, 184, 0.25);
   --shadow: rgba(15, 23, 42, 0.35);
@@ -29,19 +27,17 @@
 
 :root[data-theme='light'] {
   color: #1e293b;
-  background: #f1f5f9;
+  background: #f4f6f8;
   color-scheme: light;
-  --page-background:
-    radial-gradient(circle at top, rgba(56, 189, 248, 0.12), transparent 35%),
-    linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+  --page-background: #f4f6f8;
   --text: #334155;
   --text-strong: #0f172a;
   --text-muted: #475569;
   --text-subtle: #64748b;
-  --surface: rgba(255, 255, 255, 0.82);
-  --surface-raised: rgba(255, 255, 255, 0.72);
-  --surface-input: rgba(248, 250, 252, 0.9);
-  --surface-hero: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(241, 245, 249, 0.94));
+  --surface: #ffffff;
+  --surface-raised: #eef2f6;
+  --surface-input: #ffffff;
+  --surface-hero: #edf1f5;
   --border: rgba(100, 116, 139, 0.2);
   --border-strong: rgba(100, 116, 139, 0.3);
   --shadow: rgba(51, 65, 85, 0.12);

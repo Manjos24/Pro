@@ -164,7 +164,7 @@
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #38bdf8, #8b5cf6);
+  background: var(--accent);
   color: white;
 }
 
@@ -285,7 +285,7 @@
   height: 170px;
   object-fit: cover;
   object-position: center;
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.4), rgba(139, 92, 246, 0.55));
+  background: var(--surface-raised);
 }
 
 .project-copy {
