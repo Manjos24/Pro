@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <nav className="topbar">
-      <Link className="brand" to="/">mma.</Link>
+      <Link className="brand" to="/">MMA.</Link>
       <div className="topbar-actions">
         <div className="nav-links">
           <Link to="/">Home</Link>
